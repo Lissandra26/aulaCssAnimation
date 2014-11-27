@@ -10,20 +10,22 @@
                 width: 100px;
                 height: 100px;
                 background: red;
-                -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
-                transition: width 2s, height 2s, transform 2s;
+                transition: width 2s, 
+                    height 2s, 
+                    transform 3s,
+                    bacground-color 3s;
             }
 
             div:hover {
                 width: 200px;
                 height: 200px;
-                -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
                 transform: rotate(180deg);
+                background-color: crimson;
             }
         </style>
     </head>
     <body>
         <p></p>
-        <div>TODO write content</div>
+        <div>passe o mouse por cima</div>
     </body>
 </html>
